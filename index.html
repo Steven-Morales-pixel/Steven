@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feliz Cumpleaños Mamá 🎂</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js"></script>
+    <link rel="icon" href="recursos/icono/icons8-heart-48.png" type="image/png" />
+</head>
+
+<body>
+    <div class="welcome-screen" id="welcomeScreen">
+        <h1>🎂 Feliz Cumpleaños Mamá 💖</h1>
+        <p>Hoy celebramos a la mejor mamá del mundo ✨</p>
+        <button onclick="entrar()">Entrar</button>
+    </div>
+
+    <main id="mainContent" style="display: none;">
+        <section id="calendarSection">
+            <h2>Feliz Cumpleaños Mamá</h2>
+            <div class="months">
+                <button onclick="abrirMes('Steven')">Steven</button>
+                <!-- Agrega más meses según avances -->
+            </div>
+        </section>
+
+        <section id="detalleMes" style="display: none;">
+            <h2 id="tituloMes">Detalle de Cumpleaños</h2>
+
+            <div class="contenido-mes">
+                <div id="contadorDias"></div>
+
+                <div class="carta">
+                    <h3>Carta para ti ✍️</h3>
+                    <button onclick="mostrarCarta()">Abrir carta</button>
+                    <p id="textoCarta" class="oculto"></p>
+                </div>
+
+                <div class="galeria">
+                    <h3>📸 Nuestros recuerdos</h3>
+                    <div class="imagenes">
+                        <img src="recursos/imagenes/rec1.jpeg" alt="Recuerdo 1" />
+                        <img src="recursos/imagenes/rec2.jpeg" alt="Recuerdo 2" />
+                    </div>
+                </div>
+
+                <div class="musica">
+                    <h3>Cancion Feliz Cumpleaños 🎶</h3>
+                    <iframe style="border-radius:12px"
+                        src="https://open.spotify.com/embed/playlist/5nnxbXoXovyRUSDVScDa42?si=Ac5ergYGS2aZrNQsRwju1g&pi=2lJ3RswtTFK1v"
+                        width="100%" height="152" frameborder="0" allowtransparency="true"
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+                    </iframe>
+                </div>
+
+                <!-- <div class="sorpresa">
+                    <h3>Sorpresa secreta 🔒</h3>
+                    <input type="text" placeholder="Clave mágica" id="claveInput" />
+                    <button onclick="verSorpresa()">Ver</button>
+                    <div id="contenidoSecreto" class="oculto">
+                        <p>🎁 ¡Sorpresa desbloqueada! Mira esta canción para tí:</p>
+                        <div style="margin-top: 10px;">
+                            <iframe style="border-radius:12px"
+                                src="https://open.spotify.com/embed/track/29rAE8vuD7FPSmWUnLIO7V?si=GI-KBaiXQk6hheDSfTRnMg"
+                                width="100%" height="152" frameborder="0"
+                                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                                loading="lazy">
+                            </iframe>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- <div class="juego">
+                    <h3>🎮 ¿Qué tanto me conoces?</h3>
+                    <div id="preguntaJuego"></div>
+                    <div id="opcionesJuego"></div>
+                    <div id="resultadoJuego" class="oculto"></div>
+                </div> -->
+
+                <!-- <div class="diario">
+                    <h3>📖 Nuestro diario del mes</h3>
+                    <textarea id="diarioTexto" placeholder="Escribe aquí tus pensamientos del mes..."></textarea>
+                    <br />
+                    <button onclick="guardarDiario()">Guardar</button>
+                    <p id="mensajeGuardado" class="oculto">Guardado correctamente ✅</p>
+                </div> -->
+
+                <div class="puzzle">
+                    <h3>🧩 Puzzle</h3>
+                    <div id="puzzleContainer"></div>
+                    <p id="puzzleMensaje" class="oculto">Completado! 💕</p>
+                </div>
+
+
+
+            </div>
+        </section>
+    </main>
+
+
+</body>
+
+</html>
