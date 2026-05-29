@@ -29,11 +29,11 @@ function mostrarCarta() {
     Hoy quiero agradecerte por todo lo que haces por mí.
     Gracias por tu amor, tu paciencia y por siempre estar a mi lado.
 
-    Eres una mujer increíble y me siento muy afortunado de tenerte como mamá. 🌸
+    Eres una mujer increíble y me siento muy afortunado de tenerte como mamá. 😘
 
     Espero que este día esté lleno de alegría, abrazos y muchos momentos felices.
 
-    ¡Te amo muchísimo!
+    Te amo muchísimo
     🎂💕`;
 
     const elemento = document.getElementById("textoCarta");

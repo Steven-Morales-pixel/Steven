@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Segoe UI', sans-serif;
-    background: linear-gradient(to bottom right, #fff0f5, #f8e8ff);
+    background: linear-gradient(to bottom right, #ebb9cb);
     color: #333;
     text-align: center;
     padding: 20px;
@@ -125,7 +125,6 @@ button {
     cursor: pointer;
 }
 
-/* 📱 Estilos para pantallas pequeñas */
 @media (max-width: 768px) {
     body {
         padding: 10px;
